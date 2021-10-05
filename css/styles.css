@@ -1,26 +1,29 @@
-:root {
-    /* color */
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
-}
-
 body {
     background-color: #ffffff;
-    color: #757575
+    color: #757575}
 
     /* logo header*/
+    .logo {text-decoration: none;
+        font-family: Raleway;
+        font-style: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;}
+        .logo-dark {color: #000000;}
 
     /* Hero */
 
      /* site nav */
-    .site-nav  
-    .site-nav .link:hover,
+    .site-nav .link {color: #212121;} 
+    .site-nav .link:hover {color: #2196F3;}
     .site-nav .link:focus {color: #2196F3;}
      /* auth nav */
     .auth-nav .link {color: #757575;}
-    .auth-nav .link:hover,
+    .auth-nav .link:hover {color: #2196F3;}
     .auth-nav .link:focus {color: #2196F3;}
+
+    /* title color */
 
     .section-title {color: #212121;}
 
@@ -28,4 +31,3 @@ body {
     .feature .title {color: #212121;}
 
     /* logo footer */
-    
