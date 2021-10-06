@@ -1,10 +1,20 @@
 body {
     background-color: #ffffff;
-    color: #757575}
+    color: var(--primary-text-color);
+    }
+
+:root {
+    /* color */
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
 
     /* logo header*/
-    .logo {text-decoration: none;
+    .logo-header {text-decoration: none;
         font-family: Raleway;
+        font-weight: bold;
         font-style: 700;
         font-size: 26px;
         line-height: 31px;
@@ -15,19 +25,33 @@ body {
     /* Hero */
 
      /* site nav */
-    .site-nav .link {color: #212121;} 
-    .site-nav .link:hover {color: #2196F3;}
-    .site-nav .link:focus {color: #2196F3;}
+    .site-nav .link {color: var(--title-text-color);} 
+    .site-nav .link:hover {color: var(--accent-color);}
+    .site-nav .link:focus {color: var(--accent-color);}
      /* auth nav */
-    .auth-nav .link {color: #757575;}
-    .auth-nav .link:hover {color: #2196F3;}
-    .auth-nav .link:focus {color: #2196F3;}
+    .auth-nav .link {color: var(--primary-text-color);}
+    .auth-nav .link:hover {color: var(--accent-color);}
+    .auth-nav .link:focus {color: var(--accent-color);}
 
     /* title color */
 
-    .section-title {color: #212121;}
+    .section-title {color: var(--title-text-color);}
 
     /* feature */
-    .feature .title {color: #212121;}
+    .feature .title {color: var(--title-text-color);}
 
     /* logo footer */
+    .logo-footer {text-decoration: none;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+        }
+        .logo-light {color: #ffffff;}
+
+    .footer-contacts .footer-adress {color: #ffffff;}
+    .footer-contacts .footer-mail {color: rgba(255, 255, 255, 0.6);}
+    .footer-contacts .footer-tel {color: rgba(255, 255, 255, 0.6);}
