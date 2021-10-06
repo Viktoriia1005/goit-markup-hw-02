@@ -25,13 +25,23 @@ body {
         .logo-dark {color: #000000;}
 
     /*========== Hero========== */
+    .primery-button {background-color: var(--accent-color);
+    color: #ffffff;}
+    .primery-button:hover,
+    .primery-button:focus {background-color: #118CE8;
+    color: #ffffff;}
 
      /* site nav */
-    .site-nav .link {color: var(--title-text-color);} 
+    
+    .site-nav .link {color: var(--title-text-color);
+        text-decoration: none} 
     .site-nav .link:hover,
     .site-nav .link:focus {color: var(--accent-color);}
+    .site-nav .link.current {color: var(--accent-color);}
+    
      /* auth nav */
-    .auth-nav .link {color: var(--primary-text-color);}
+    .auth-nav .link {color: var(--primary-text-color);
+        text-decoration: none}
     .auth-nav .link:hover,
     .auth-nav .link:focus {color: var(--accent-color);}
 
@@ -57,7 +67,7 @@ body {
         .logo-light {color: #ffffff;}
 
     .footer-contacts .footer-adress {color: #ffffff;}
-    .footer-contacts .footer-mail {color: rgba(255, 255, 255, 0.6);}
+    .footer-contacts .footer-mail,
     .footer-contacts .footer-tel {color: rgba(255, 255, 255, 0.6);}
 
     /* =========Portfolio=========== */
