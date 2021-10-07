@@ -47,7 +47,7 @@ address {
     .site-nav .link {color: var(--primary-title-color);
         font-weight: 500;
         font-size: 14px;
-        line-height: 1.1;
+        line-height: 1.17;
         letter-spacing: 0.02em;} 
     .site-nav .link:hover,
     .site-nav .link:focus {color: var(--accent-color);}
@@ -58,7 +58,7 @@ address {
     .auth-nav .link {color: var(--primary-text-color);
         font-weight: 500;
         font-size: 14px;
-        line-height: 1.1;
+        line-height: 1.14;
         letter-spacing: 0.02em;}
     .auth-nav .link:hover,
     .auth-nav .link:focus {color: var(--accent-color);}
@@ -71,8 +71,16 @@ address {
         line-height: 1.36;
         letter-spacing: 0.06em;
         text-align: center;}
-    .primery-button {background-color: var(--accent-color);
-    color: #ffffff;}
+        
+    .primery-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-color);
+    color: #ffffff;
+    cursor: pointer;
+    }
     .primery-button:hover,
     .primery-button:focus {background-color: #118CE8;
     color: #ffffff;}
@@ -119,9 +127,12 @@ address {
         }
         .logo-light {color: #ffffff;}
 
-    .footer-contacts .footer-adress {color: #ffffff;}
-    .footer-contacts .footer-mail,
-    .footer-contacts .footer-tel {color: rgba(255, 255, 255, 0.6);}
+    .footer-adress {color: #ffffff;}
+    .footer-mail,
+    .footer-tel {color: rgba(255, 255, 255, 0.6);}
+    .footer-mail:hover, .footer-mail:focus {color: #ffffff;}
+    .footer-tel:hover, .footer-tel:focus {color: #ffffff;}
+
 
     /* =========Portfolio=========== */
 
