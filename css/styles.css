@@ -10,9 +10,6 @@ body {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
 ul,
 li,
@@ -28,7 +25,7 @@ address {
     /* color */
     --primary-bg-color: #ffffff;
     --primary-text-color: #757575;
-    --title-text-color: #212121;
+    --primary-title-color: #212121;
     --accent-color: #2196F3;
     --secondary-bg-color: #F5F4FA;
     --button-bg-color: #F5F4FA;
@@ -47,7 +44,7 @@ address {
 
         /* site nav */
     
-    .site-nav .link {color: var(--title-text-color);
+    .site-nav .link {color: var(--primary-title-color);
         font-weight: 500;
         font-size: 14px;
         line-height: 1.1;
@@ -84,18 +81,18 @@ address {
 
     /* title */
 
-    .section-title {color: var(--title-text-color);
+    .section-title {color: var(--primary-title-color);
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17px;
         text-align: center;}
 
-    .feature-list .title {color: var(--title-text-color);
+    .feature-list .title {color: var(--primary-title-color);
         font-weight: 700;
         font-size: 14px;
         line-height: 1.1;}
     
-    .team-list .title {color: var(--title-text-color);
+    .team-list .title {color: var(--primary-title-color);
         font-weight: 500;
         font-size: 16px;
         line-height: 1.2;
@@ -136,7 +133,7 @@ address {
     background-color: var(--accent-color);}
 
     /* Work */
-    .work-list .title {color: var(--title-text-color);
+    .work-list .title {color: var(--primary-title-color);
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
