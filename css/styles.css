@@ -137,8 +137,15 @@ address {
     /* =========Portfolio=========== */
 
     /* filter */
-    .portfolio-button {background-color: var(--button-bg-color);
-    color: var(--title-text-color);}
+    .portfolio-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,6;
+    text-align: center;
+    background-color: var(--button-bg-color);
+    color: var(--primary-title-color);
+    cursor: pointer;
+}
     .portfolio-button:hover,
     .portfolio-button:focus {color: var(--primary-bg-color);
     background-color: var(--accent-color);}
