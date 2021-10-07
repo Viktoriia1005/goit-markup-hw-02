@@ -1,69 +1,118 @@
 body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.7;
     }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a,
+button,
+address {
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+}
 
 :root {
     /* color */
+    --primary-bg-color: #ffffff;
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --primary-bg-color: #ffffff;
     --secondary-bg-color: #F5F4FA;
     --button-bg-color: #F5F4FA;
 }
 
+/*============ Header ===========*/
 
     /* logo header*/
-    .logo-header {text-decoration: none;
-        font-family: Raleway;
+    .logo-header {font-family: Raleway;
         font-weight: bold;
-        font-style: 700;
         font-size: 26px;
-        line-height: 31px;
+        line-height: 1.2;
         letter-spacing: 0.03em;
         color: #2196F3;}
         .logo-dark {color: #000000;}
 
+        /* site nav */
+    
+    .site-nav .link {color: var(--title-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;} 
+    .site-nav .link:hover,
+    .site-nav .link:focus {color: var(--accent-color);}
+    .site-nav .link.current {color: var(--accent-color);}
+
+    
+     /* auth nav */
+    .auth-nav .link {color: var(--primary-text-color);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;}
+    .auth-nav .link:hover,
+    .auth-nav .link:focus {color: var(--accent-color);}
+
     /*========== Hero========== */
-    .hero {background-color: #2F303A;
-    color: var(--primary-bg-color);}
+    .hero {background-color: #2F303A;}
+    .hero-title {color: var(--primary-bg-color);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-align: center;}
     .primery-button {background-color: var(--accent-color);
     color: #ffffff;}
     .primery-button:hover,
     .primery-button:focus {background-color: #118CE8;
     color: #ffffff;}
 
-     /* site nav */
+    /*========= Main ==========*/
+
+    /* title */
+
+    .section-title {color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17px;
+        text-align: center;}
+
+    .feature-list .title {color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.1;}
     
-    .site-nav .link {color: var(--title-text-color);
-        text-decoration: none} 
-    .site-nav .link:hover,
-    .site-nav .link:focus {color: var(--accent-color);}
-    .site-nav .link.current {color: var(--accent-color);}
-    
-     /* auth nav */
-    .auth-nav .link {color: var(--primary-text-color);
-        text-decoration: none}
-    .auth-nav .link:hover,
-    .auth-nav .link:focus {color: var(--accent-color);}
+    .team-list .title {color: var(--title-text-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;}
 
-    /* title color */
-
-    .section-title {color: var(--title-text-color);}
-
-    /* feature */
-    .feature .title {color: var(--title-text-color);}
-
-    /*============= Main============= */
+        /* Team  */
     .team {background-color: var(--secondary-bg-color);}
+    .team-list .text {font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;}
 
     /*============ Footer============ */
     .footer {background-color: #2F303A;}
 
     /* logo footer */
-    .logo-footer {text-decoration: none;
-        font-family: Raleway;
+    .logo-footer {font-family: Raleway;
         font-style: normal;
         font-weight: bold;
         font-size: 26px;
@@ -85,4 +134,13 @@ body {
     .portfolio-button:hover,
     .portfolio-button:focus {color: var(--primary-bg-color);
     background-color: var(--accent-color);}
+
+    /* Work */
+    .work-list .title {color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;}
+    .work-list .text {font-size: 16px;
+        line-height: 1.9;}
     
