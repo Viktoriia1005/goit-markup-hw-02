@@ -9,6 +9,7 @@ body {
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --primary-bg-color: #ffffff;
+    --secondary-bg-color: #F5F4FA;
     --button-bg-color: #F5F4FA;
 }
 
@@ -25,6 +26,8 @@ body {
         .logo-dark {color: #000000;}
 
     /*========== Hero========== */
+    .hero {background-color: #2F303A;
+    color: var(--primary-bg-color);}
     .primery-button {background-color: var(--accent-color);
     color: #ffffff;}
     .primery-button:hover,
@@ -52,7 +55,11 @@ body {
     /* feature */
     .feature .title {color: var(--title-text-color);}
 
+    /*============= Main============= */
+    .team {background-color: var(--secondary-bg-color);}
+
     /*============ Footer============ */
+    .footer {background-color: #2F303A;}
 
     /* logo footer */
     .logo-footer {text-decoration: none;
