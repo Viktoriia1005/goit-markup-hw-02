@@ -116,6 +116,8 @@ body {
     .footer-mail:hover, .footer-mail:focus {color: #ffffff;}
     .footer-tel:hover, .footer-tel:focus {color: #ffffff;}
 
+    .address {font-style: normal;}
+
 
     /* =========Portfolio=========== */
 
